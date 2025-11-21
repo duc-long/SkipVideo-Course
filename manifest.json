@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Coursera TRICKNGU",
+    "version": "1.0",
+    "description": "Giữ Coursera luôn hoạt động ngay cả khi bạn không tương tác. Bản Quyền của NVDL",
+    "permissions": ["storage", "scripting", "tabs"],
+    "host_permissions": ["*://*.coursera.org/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
